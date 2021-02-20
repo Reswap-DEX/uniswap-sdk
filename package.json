@@ -1,5 +1,5 @@
 {
-  "name": "@uniswap/sdk",
+  "name": "@reswap/sdk",
   "license": "MIT",
   "version": "3.0.3",
   "description": "🛠 An SDK for building applications on top of Uniswap.",
@@ -8,10 +8,10 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/Uniswap/uniswap-sdk.git",
+  "repository": "https://github.com/Reswap-DEX/uniswap-sdk.git",
   "keywords": [
-    "uniswap",
-    "ethereum"
+    "reswap",
+    "fantom"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@uniswap/v2-core": "^1.0.0",
+    "@uniswap/v2-core": "https://github.com/Reswap-DEX/reswap-core",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",
